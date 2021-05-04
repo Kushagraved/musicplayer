@@ -1,0 +1,160 @@
+.search-bar{
+    /* border:2px solid black; */
+    border-radius: 10px;
+}
+.navbar{
+    background-image: black;
+}
+i{
+    color: white;
+}
+body{
+    background: rgb(3,1,51);
+    /* background: linear-gradient(to top right, rgba(3,1,51,1) 36%, rgba(13,46,223,1) 86%, rgba(3,92,135,1) 100%); */
+}
+.heading{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white;
+}
+.main-heading{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    /* font-weight: 700; */
+    color: white;
+}
+#main-content{
+    height:100%;
+    width:55%;
+    /* border:2px solid black; */
+}
+#aside{
+    width:37%;
+    /* border:2px solid black; */
+}
+.songs{
+    margin: 20px;
+    transition: 0.5s;
+}
+.songs img{
+    height:100px;
+    width:90px;
+}
+.dots{
+    position: relative;
+}
+.dots img{
+    position: absolute;
+    height:50px;
+    width:50px;
+    top:-15px;
+    left:-45px;
+    
+}
+.songs:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.dots p{
+    position: absolute;
+    font-size: 0.8rem;
+    top:17px;
+    left: -33px;
+}
+.artist{
+    margin:10px;
+}
+.artist img{
+    height:105px;
+    width:105px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.artist img:hover{
+    transform: scale(1.2);
+}
+.section-margins{
+    margin-top: 35px;
+}
+.artist p{
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+#music-control{
+    position: fixed;
+    top:85%;
+    width:100%;
+    height:15%;
+    background-color: black;
+}
+#music-control a{
+    text-decoration: none;
+}
+.section-margins-bottom{
+    margin-bottom: 200px;
+}
+#control-1{
+    width:20%;
+    /* border: 2px solid white; */
+}
+#control-1 img{
+    height:100px;
+    width:100px;
+}
+#control-2{
+    width:50%;
+    /* border: 2px solid white; */
+}
+#control-2 li{
+    margin:15px;
+}
+#control-3{
+    width:30%;
+    /* border: 2px solid white;*/
+} 
+#progress-container{
+    width:75%;
+}
+#volume-container{
+    width:100px;
+}
+#music-control p{
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+#queue-container img{
+    height:50px;
+    width:50px;
+}
+.text{
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+.sub-text{
+    font-family:sans-serif;
+    font-size: 12px;
+    color: white;
+    margin: 10px;
+}
+.tiles-margin{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.tiles{
+    transition: 0.1s;
+}
+.tiles:hover{
+    transform: scale(1.1);
+}
